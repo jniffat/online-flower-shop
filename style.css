@@ -109,8 +109,6 @@ line-height: 30px;
 {
     width: 280px;
     height: 320px;
- 
-    flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     margin-left: 180px;
@@ -123,7 +121,7 @@ line-height: 30px;
     width: 200px;
     height: 255px;
 
-    margin: 65px 55px 55px 45px;
+    margin: 65px 55px 20px 45px;
 }
 .flower-tree .flower-tree2-image 
 {
@@ -131,7 +129,10 @@ line-height: 30px;
     height: 320px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    
+    position: relative;
+   
+
+
 
 }
 .flower-tree .flower-image-2
@@ -139,7 +140,7 @@ line-height: 30px;
 
     width: 230px;
     height: 255px;
-    margin: 55px 60px 55px 35px;
+    margin: 55px 60px 30px 35px;
 }
 
 
@@ -150,6 +151,7 @@ line-height: 30px;
     width: 280px;
     height: 320px;
     margin-right: 200px;
+    
 
 
 }
@@ -157,9 +159,46 @@ line-height: 30px;
 {
     width: 230px;
     height: 275px;
-    margin: 45px 65px 0px 20px;
+    margin: 45px 65px 20px 20px;
 
-   
-
-
+}
+.fatag2
+{
+    
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-left: 30%;
+}
+.fatag1
+{
+    
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-left: 30%;
+}
+.fatag3
+{
+    
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-left: 30%;
+  
 }
