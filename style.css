@@ -7,8 +7,10 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
 
 }
+/*   <!-- Header section --> */
 
 .banner {
     display: flex;
@@ -80,6 +82,7 @@ button:hover {
 
 
 }
+/* <!-- feature section --> */
 
 .section-title {
     display: block;
@@ -89,7 +92,7 @@ button:hover {
     font-size: 25px;
 
 }
-
+/* <!-- instagram section --> */
 .section-titleI {
     display: block;
     text-align: center;
@@ -352,6 +355,8 @@ button:hover {
     border-radius: 8px;
     background: #E55473;
 }
+/* <!-- Latest Deal section --> */
+
 
 .deal {
     text-align: center;
@@ -417,6 +422,7 @@ button:hover {
     font-weight: 400;
     line-height: 30px;
 }
+/* <!-- footer section --> */
 
 .footer {
     text-align: center;
@@ -469,6 +475,7 @@ button:hover {
     margin-top: 20px;
 
 }
+/* <!-- HOt Deal section --> */
 
 .sale {
     background: rgba(229, 84, 115, 0.05);
