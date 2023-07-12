@@ -5,6 +5,8 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -56,12 +58,17 @@ body {
     font-weight: 700;
     border-radius: 8px;
     background: #E55473;
-    padding: 20px 43px;
+    padding: 18px 40px;
     border: none;
     margin-top: 32px;
     margin-bottom: 32px;
 
 
+}
+
+button:hover {
+    background: #c34762;
+    cursor: pointer;
 }
 
 .banner-image {
@@ -79,14 +86,25 @@ body {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 20px;
+    font-size: 25px;
+
 }
 
-.feature-section .h2tag {
+.section-titleI {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 35px;
+
+}
+
+.section-title .h2tag {
     margin-top: 100px;
     margin-bottom: 20px;
 }
 
-.feature-section .para {
+.section-title .para {
     color: rgba(39, 39, 39, 0.60);
 
     font-family: Lato;
@@ -99,7 +117,7 @@ body {
 
 .flower-tree {
     display: flex;
-
+    margin-top: 50px;
     gap: 15px;
 
 }
@@ -122,15 +140,29 @@ body {
     margin: 65px 55px 20px 45px;
 }
 
+.flower-tree1-image:hover {
+
+
+    cursor: pointer;
+}
+
+.flower-tree2-image:hover {
+
+
+    cursor: pointer;
+}
+
+.flower-tree3-image:hover {
+
+    cursor: pointer;
+}
+
 .flower-tree .flower-tree2-image {
     width: 280px;
     height: 320px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     position: relative;
-
-
-
 
 }
 
@@ -220,6 +252,7 @@ body {
 
     width: 60px;
     height: 60px;
+    padding-left: 40px;
 
 
 }
@@ -310,30 +343,31 @@ body {
 }
 
 
-.pic-set .images 
-{
+.pic-set .images {
     width: 200px;
     height: 250px;
 }
-.sub-btn
-{border-radius: 8px;
-    background: #E55473;}
-.deal
-{
+
+.sub-btn {
+    border-radius: 8px;
+    background: #E55473;
+}
+
+.deal {
     text-align: center;
-    background:url("./Flower Asset/background.png");
+    background: url("./Flower Asset/background.png");
     background-position: center;
     background-size: 100% 100%;
- 
-    height: 400px;
+
+    height: 350px;
     margin: 170px;
-    margin-top: 100px;
+    margin-top: 10px;
     margin-bottom: 100px;
- 
-    
+
+
 }
-.deal .section-title
-{
+
+.deal .section-title {
     margin-top: 100px;
     color: #272727;
     text-align: center;
@@ -341,22 +375,23 @@ body {
     font-weight: 800;
     padding-top: 100px;
 }
-.email
-{
-    width: 400px;
-height: 48px;
-border-radius: 8px;
-background: #FFF;
-padding-left: 20px;
-border: none;
-color: rgba(39, 39, 39, 0.60);
 
-font-family: Lato;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
+.email {
+    width: 400px;
+    height: 48px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 20px;
+    border: none;
+    color: rgba(39, 39, 39, 0.60);
+
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
 
 }
+
 .deal .button {
     color: #FFF;
     font-family: Lato;
@@ -372,15 +407,112 @@ font-weight: 400;
 
 
 }
-.info
-{
+
+.info {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
+.footer {
+    text-align: center;
+    font-family: Lato;
+    margin-top: 100px;
+    height: 350px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 0;
+    display: block;
+    padding-bottom: 0;
 
+
+    margin-bottom: 20px;
+    font-size: 25px;
+    background: #111010;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.footer .foot .title {
+    padding-top: 120px;
+}
+
+.footer span {
+    color: #E55473;
+}
+
+.foot .para {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 14px;
+
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 25px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+
+
+
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+.sale {
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    margin-top: 100px;
+    text-align: center;
+
+
+}
+
+.sale-deal {
+    padding-left: 50px;
+}
+
+.sale .sec-title {
+
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+
+}
+
+.sale .detail {
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.sale-deal2 .sale-image {
+    width: 288px;
+    height: 350px;
+    padding-right: 50px;
+}
+
+.sec-title span {
+    color: #E55473;
+
+}
