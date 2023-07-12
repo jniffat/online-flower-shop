@@ -1,112 +1,109 @@
-
-*
-{
+* {
     margin: 0;
     padding: 0;
 }
-body
-{
+
+body {
     font-family: 'Lato', sans-serif;
 
 }
-.banner
-{
-    display:flex;
+
+.banner {
+    display: flex;
     background-color: rgba(229, 84, 115, 0.10);
-  
-justify-content: space-between;
 
-padding-left: 180px;
-padding-right: 100px;
-margin-bottom: 0px;
+    justify-content: space-between;
 
-    
+    padding-left: 180px;
+    padding-right: 100px;
+    margin-bottom: 0px;
+
+
 }
-.banner-contain
-{
-  
+
+.banner-contain {
+
     width: 708px;
 }
-.banner-contain .text
-{
+
+.banner-contain .text {
     color: #272727;
-font-family: Lato;
-font-size: 50px;
-font-weight: 800;
-margin-top: 160px;
-margin-bottom: 32px;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 160px;
+    margin-bottom: 32px;
 
 
 
 }
-.banner-contain .para
-{
+
+.banner-contain .para {
     color: rgba(39, 39, 39, 0.60);
-font-family: Lato;
-font-size: 15px;
+    font-family: Lato;
+    font-size: 15px;
 
-font-weight: 400;
-line-height: 30px;
-margin-top: 32px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 32px;
 
 }
-.banner-contain .button
-{
+
+.banner-contain .button {
     color: #FFF;
-font-family: Lato;
-font-size: 20px;
-font-weight: 700;
-border-radius: 8px;
-background: #E55473;
-padding:20px 43px;
-border: none;
-margin-top: 32px;
-margin-bottom: 32px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    border: none;
+    margin-top: 32px;
+    margin-bottom: 32px;
 
 
 }
-.banner-image
-{
+
+.banner-image {
     width: 500px;
 
-margin-top: 50px;
-margin:0px;
-display: block;
+    margin-top: 50px;
+    margin: 0px;
+    display: block;
 
 
 }
-.feature-section
-{
+
+.feature-section {
     display: block;
     text-align: center;
     margin-bottom: 40px;
 }
-.feature-section .h2tag
-{
+
+.feature-section .h2tag {
     margin-top: 100px;
     margin-bottom: 20px;
 }
-.feature-section .para
-{
+
+.feature-section .para {
     color: rgba(39, 39, 39, 0.60);
 
-font-family: Lato;
-font-size: 15px;
+    font-family: Lato;
+    font-size: 15px;
 
-font-weight: 400;
-text-align: center;
-line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 30px;
 }
-.flower-tree
-{
+
+.flower-tree {
     display: flex;
 
     gap: 15px;
-    
-}
-.flower-tree .flower-tree1-image 
 
-{
+}
+
+.flower-tree .flower-tree1-image {
     width: 280px;
     height: 320px;
     border-radius: 300px 300px 0px 0px;
@@ -115,28 +112,28 @@ line-height: 30px;
 
 
 }
-.flower-image-1
-{
+
+.flower-image-1 {
 
     width: 200px;
     height: 255px;
 
     margin: 65px 55px 20px 45px;
 }
-.flower-tree .flower-tree2-image 
-{
+
+.flower-tree .flower-tree2-image {
     width: 280px;
     height: 320px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     position: relative;
-   
+
 
 
 
 }
-.flower-tree .flower-image-2
-{
+
+.flower-tree .flower-image-2 {
 
     width: 230px;
     height: 255px;
@@ -144,27 +141,26 @@ line-height: 30px;
 }
 
 
-.flower-tree .flower-tree3-image
-{
+.flower-tree .flower-tree3-image {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     width: 280px;
     height: 320px;
     margin-right: 200px;
-    
+
 
 
 }
-.flower-tree  .flower-image-3
-{
+
+.flower-tree .flower-image-3 {
     width: 230px;
     height: 275px;
     margin: 45px 65px 20px 20px;
 
 }
-.fatag2
-{
-    
+
+.fatag2 {
+
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -175,9 +171,9 @@ line-height: 30px;
     text-decoration-line: underline;
     padding-left: 30%;
 }
-.fatag1
-{
-    
+
+.fatag1 {
+
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -188,9 +184,9 @@ line-height: 30px;
     text-decoration-line: underline;
     padding-left: 30%;
 }
-.fatag3
-{
-    
+
+.fatag3 {
+
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -200,100 +196,79 @@ line-height: 30px;
     line-height: 35px;
     text-decoration-line: underline;
     padding-left: 30%;
-  
+
 }
-.section2
-{
+
+.section2 {
     margin-top: 150px;
 }
-.del
-{
+
+.del {
     border-radius: 8px;
-background: rgba(39, 39, 39, 0.05);
-display: flex;
-justify-content: space-around;
-align-items: center;
-margin-right: 160px;
-margin-left: 180px;
-height: 200px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 160px;
+    margin-left: 180px;
+    height: 200px;
 
 }
-.image1
-{
-  
-    width:60px;
+
+.image1 {
+
+    width: 60px;
     height: 60px;
 
 
 }
-.image2
-{
-  
-    width:60px;
+
+.image2 {
+
+    width: 60px;
     height: 60px;
     margin-left: 20px;
- 
+
 }
 
-.deli
-{
-   
+.image3 {
+
+    width: 60px;
+    height: 60px;
+
+}
+
+
+.deli {
+
     margin-bottom: 10px;
 
- 
-
 
 }
-.del .deli 
-{
+
+.del .deli {
     text-align: center;
 
 }
-.del .noop
-{
-    text-decoration: none;
 
-color: rgba(39, 39, 39, 0.80);
-
-font-family: Lato;
-font-size: 15px;
-
-font-weight: 600;
-line-height: 25px;
-margin-left: 40px;
-}
-.del .noop2
-{
-    text-decoration: none;
-
-color: rgba(39, 39, 39, 0.80);
-
-font-family: Lato;
-font-size: 15px;
-
-font-weight: 600;
-line-height: 25px;
-margin-right: 30px;
-}
-.noop3
-{
+.del .noop {
     text-decoration: none;
 
     color: rgba(39, 39, 39, 0.80);
-    
+
     font-family: Lato;
     font-size: 15px;
-    margin-right: 100px;
+
     font-weight: 600;
     line-height: 25px;
-    margin-left: 100px;
+    margin-left: 40px;
 }
-.noop2
-{
+
+.noop2 {
     text-decoration: none;
 
     color: rgba(39, 39, 39, 0.80);
-    
+
     font-family: Lato;
     font-size: 15px;
     margin-right: 100px;
@@ -301,12 +276,16 @@ margin-right: 30px;
     line-height: 25px;
     margin-left: 0px;
 }
-.image3
-{
-  
-    width:60px;
-    height: 60px;
-    
-}
+.noop3 {
+    text-decoration: none;
 
+    color: rgba(39, 39, 39, 0.80);
+
+    font-family: Lato;
+    font-size: 15px;
+    margin-right: 100px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-left: 100px;
+}
 
